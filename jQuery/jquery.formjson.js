@@ -1,11 +1,14 @@
+/**
+ * Plugins para manipulação de Object para serem utilizando em fomulário HTML
+ * @author Weslley Alves
+ * @email wesshead@gmail.com
+ * @version v0.0.2
+ * @date 2011-12-19
+ */
 (function($){
     /**
      * Método que irá setar os valores nos campos do Form referente ao Object passado
      * via parâmetro.
-     * @author Weslley Alves
-     * @email wesshead@gmail.com
-     * @version v0.0.2
-     * @date 2011-12-19
      * @param {Object} data Obejto com os dados para os campos do Formulário
      * @return {Wrapped} Retorna o Elemento do Formulário
      * @use O atributo do Object ("nome") seja igual ao valor do atributo "name" do campo.
@@ -38,11 +41,7 @@
 
     /**
      * Método que irá setar o valor passado via parâmetro no Elemento referênciado
-     * @author Weslley Alves
-     * @email wesshead@gmail.com
-     * @version v0.0.1
-     * @date 2011-12-19
-     * @param {Int/String} value Valor a ser setado no Elemento referênciado
+     * @param {Number/String} value Valor a ser setado no Elemento referênciado
      * @return {Element} Retorna o Elemento referênciado
      * @use Deve ser chamado este método através do Elemento HTML.
      * @example
